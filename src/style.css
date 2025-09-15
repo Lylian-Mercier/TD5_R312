@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme inline {
+    --color-background: var(--background);
+    --color-text: var(--text);
+    --color-subtext: var(--subtext);
+}
+
+@layer base {
+    :root {
+        /* Primitive Tokens */
+        --clr-white: oklch(1 0 0);
+
+        --clr-gray-300: oklch(87.2% 0.01 258.338);
+        --clr-gray-400: oklch(70.7% 0.022 261.325);
+        --clr-gray-800: oklch(27.8% 0.033 256.848);
+        --clr-gray-900: oklch(21% 0.034 264.665);
+
+        --clr-green: oklch(87.1% 0.15 154.449);
+        --clr-green-300: oklch(79.2% 0.209 151.711);
+
+        --clr-dark-blue: oklch(0.2077 0.0398 265.75);
+
+        /* Tokens Sémantiques */
+        --background: var(--clr-dark-blue);
+        --text: var(--clr-white);
+        --subtext: var(--clr-gray-300);
+    }
+}
