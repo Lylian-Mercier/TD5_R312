@@ -7,18 +7,53 @@
   </head>
   <body class="bg-background">
     <main class="flex flex-col items-center p-8">
-      <h1 class="font-bold text-text text-4xl">adamkeyes</h1>
-      <div class="flex space-x-6 mt-6 gap-8">
-        <img src="/assets/Icons/icon-github.svg" alt="GitHub" class="w-8 h-8" />
-        <img src="/assets/Icons/icon-frontend-mentor.svg" alt="Frontend Mentor" class="w-8 h-8" />
-        <img src="/assets/Icons/icon-linkedin.svg" alt="LinkedIn" class="w-8 h-8" />
-        <img src="/assets/Icons/icon-twitter.svg" alt="Twitter" class="w-8 h-8" />
-      </div>
+      <h2 class="font-bold text-text text-4xl">adamkeyes</h2>
+      <nav class="flex space-x-6 mt-6 gap-8" aria-label="Social media links">
+        <a href="#">
+          <img src="/assets/Icons/icon-github.svg" alt="GitHub" class="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src="/assets/Icons/icon-frontend-mentor.svg" alt="Frontend Mentor" class="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src="/assets/Icons/icon-linkedin.svg" alt="LinkedIn" class="w-8 h-8" />
+        </a>
+        <a href="#">
+          <img src="/assets/Icons/icon-twitter.svg" alt="Twitter" class="w-8 h-8" />
+        </a>
+      </nav>
       <img src="/assets/Profile/image-profile-mobile.webp" alt="Profile" class="w-auto h-auto mt-8" />
     </main>
-    <article>
-      <h1>Nice to meet you! I'm <u>Adam Keyes</u>.</h1>
-      <p>Based in the UK, I'm a front-end developer passionate abour building accessible web apps that users love.</p>
+    <article class="flex text-center flex-col gap-6">
+      <h1 class="text-text font-bold text-5xl">Nice to meet you! I'm <u class="decoration-button-underline underline-offset-5">Adam Keyes</u>.</h1>
+      <p class="text-subtext max-w-80 flex justify-center text-center mx-auto">Based in the UK, I'm a front-end developer passionate abour building accessible web apps that users love.</p>
+      <a href="#"><u class="font-bold decoration-button-underline text-button-underline underline-offset-8">CONTACT ME</u></a>
     </article>
+    <section flex class="flex flex-col items-center mt-16 gap-8">
+      <ul class="flex flex-col items-center">
+        <li class="font-bold text-text text-3xl">HTML</li>
+        <li class="text-subtext">4 Years of Experience</li>
+      </ul>
+      <ul class="flex flex-col items-center">
+        <li class="font-bold text-text text-3xl">CSS</li>
+        <li class="text-subtext">4 Years of Experience</li>
+      </ul>
+      <ul class="flex flex-col items-center">
+        <li class="font-bold text-text text-3xl">JavaScript</li>
+        <li class="text-subtext">4 Years of Experience</li>
+      </ul>
+      <ul class="flex flex-col items-center">
+        <li class="font-bold text-text text-3xl">Accessibility</li>
+        <li class="text-subtext">4 Years of Experience</li>
+      </ul>
+      <ul class="flex flex-col items-center">
+        <li class="font-bold text-text text-3xl">Tailwind CSS</li>
+        <li class="text-subtext">3 Years of Experience</li>
+      </ul>
+      <ul class="flex flex-col items-center">
+        <li class="font-bold text-text text-3xl">Sass</li>
+        <li class="text-subtext">3 Years of Experience</li>
+      </ul>
+    </section>
   </body>
 </html>

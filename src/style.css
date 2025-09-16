@@ -4,6 +4,7 @@
     --color-background: var(--background);
     --color-text: var(--text);
     --color-subtext: var(--subtext);
+    --color-button-underline: var(--button-underline)
 }
 
 @layer base {
@@ -24,6 +25,7 @@
         /* Tokens Sémantiques */
         --background: var(--clr-dark-blue);
         --text: var(--clr-white);
-        --subtext: var(--clr-gray-300);
+        --subtext: var(--clr-gray-400);
+        --button-underline: var(--clr-green-300)
     }
 }
